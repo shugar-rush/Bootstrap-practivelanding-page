@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-COMMER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;700&family=Libre+Franklin:wght@300;600;700&family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- 1 assignamnet like this-->
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- 2 assignamnet like this-->
+  </head>
+  <body>
+    <header class="py-4">
+      <h1 class="text-center">
+        <span class="gradient-text">BASIS</span> <span class="colores">Store</span>
+      </h1>
+    </header>
+
+    <div class="border-top">
+      <div class="navbar navbar-expand-lg container navbar-light">
+        <a class="nombre-sitio navbar-brand d-lg-none fs-2 fw-bold text-uppercase" href="index.html">
+          Forniture Store
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navegacion" class="collapse navbar-collapse">
+          <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center py-3">  
+            <a class="text-decoration-none text-secondary" href="index.html">Main</a>
+            <a class="text-decoration-none text-secondary" href="us.html">Us</a>
+            <a class="text-decoration-none text-secondary" href="store.html">Store</a>
+            <a class="text-decoration-none text-secondary" href="blog.html">Blog</a>
+            <a class="text-decoration-none text-secondary" href="gallery.html">Gallery</a>
+            <a class="text-decoration-none text-secondary" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>   
+
+    <main class="container-xl py-5">
+
+      <h2 class="text-center py-5">Contact</h2>
+
+      <div class="form-container">
+        <div class="row justify-content-center">
+          <form action="col-md-8">
+            <fieldset>
+              <legend class="bg-primary text-center text-white fs-2 fw-bold">Your info.</legend>
+              <div class="mb-3"> 
+                <label class="form-label" for="nombre">Name: </label>
+                <input type="text" class="form-control" name="" id="nombre" placeholder="Name">
+              </div>
+              <div class="mb-3"> 
+                <label class="form-label" for="issue">Issue: </label>
+                <input type="text" class="form-control" name="" id="issue" placeholder="Issue">
+              </div>
+              <div class="mb-3"> 
+                <label class="form-label" for="email">Email: </label>
+                <input type="email" class="form-control" name="" id="email" placeholder="E-mail">
+              </div>
+              <div class="mb-3"> 
+                <label class="form-label" for="tel">Telephone: </label>
+                <input type="tel" class="form-control" name="" id="tel" placeholder="Telephone">
+              </div>
+              <div class="mb-3"> 
+                <label class="form-label" for="tel">Message: </label>
+                <textarea class="form-control" cols="30" rows="10"></textarea>
+              </div>
+            </fieldset>
+            <fieldset >
+              <legend class="bg-primary text-center text-white fs-2 fw-bold">Your info.</legend>
+
+              <div class="mb-3">
+                <label class="form-label" for="pais">Country: </label>
+                <select class="form-control" id="pais">
+                  <option value="">--Select</Option>
+                  <option value="PR">PERUKISTAN</option>
+                  <option value="CO">CUMBIALOMBIA</option>
+                  <option value="MX">MEXICAPAN DE LAS TUNAS</option>
+                  <option value="EU">GABACHO</option>
+                  <option value="CH">CHURPIANDOLFO</option>
+                </select>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="bg-primary text-center text-white fs-2 fw-bold">Your info.</legend>
+
+              <div class="mb-3"> 
+                <label class="form-label" for="cliente">Customer: </label>
+                <input type="radio" name="tipo" class="form-check-input" id="cliente">
+              </div> 
+              <div class="mb-3"> 
+                <label class="form-label" for="proveedor">Supplier: </label>
+                <input type="radio" name="tipo" class="form-check-input" id="proveedor">
+              </div>
+            </fieldset>
+            <input type="submit" class="btn btn-success fs-2 px-5" value="Send Form...">
+          </form>
+        </div>
+      </div>
+        
+    </main>
+
+    <footer class="pt-5 mt-5 border-top bg-black overflow-hidden">
+      <div class="container-xl mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center pb-5">
+            <h3 class="text-white-50 mb-5">Categories</h3>
+              <nav class="d-flex flex-column">
+                <a href="#" class="text-white-50 text-decoration-none">Kitchen</a>
+                <a href="#" class="text-white-50 text-decoration-none">Office</a>
+                <a href="#" class="text-white-50 text-decoration-none">Garden</a>
+                <a href="#" class="text-white-50 text-decoration-none">Rooms</a>
+                <a href="#" class="text-white-50 text-decoration-none">Garage</a>
+              </nav>
+          </div>
+
+          <div class="col-md-4 mb-4 text-center pb-5">
+            <h3 class="text-white-50 mb-5">About Us</h3>
+              <nav class="d-flex flex-column">
+                <a href="#" class="text-white-50 text-decoration-none">History</a>
+                <a href="#" class="text-white-50 text-decoration-none">Mission</a>
+                <a href="#" class="text-white-50 text-decoration-none">Vision</a>
+                <a href="#" class="text-white-50 text-decoration-none">Careers</a>
+                <a href="#" class="text-white-50 text-decoration-none">Terms and conditions</a>
+              </nav>
+          </div>
+
+          <div class="col-md-4 mb-4 text-center pb-5">
+            <h3 class="text-white-50 mb-5">Support</h3>
+              <nav class="d-flex flex-column">
+                <a href="#" class="text-white-50 text-decoration-none">FAQ</a>
+                <a href="#" class="text-white-50 text-decoration-none">Online Chat</a>
+                <a href="#" class="text-white-50 text-decoration-none">Security</a>                
+              </nav>
+          </div>
+        </div>
+        <p class="text-center">All rights reserved</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
